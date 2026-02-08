@@ -1,14 +1,8 @@
 # **The Wild Oasis – Guest Booking App (Next.js)**
 
----
-
 A guest-facing hotel booking application built with **Next.js (App Router)** and React, designed for a smooth, responsive, and user-friendly booking experience. Guests can browse cabins, make bookings, edit or cancel them, and see dynamic pricing calculated automatically.
 
----
-
 ## **Features**
-
----
 
 - Select cabins and booking dates using a **date picker**
 - Google OAuth login for secure authentication
@@ -17,11 +11,7 @@ A guest-facing hotel booking application built with **Next.js (App Router)** and
 - Automatic price calculation based on cabin, stay duration, and number of guests
 - Responsive UI for desktop and mobile
 
----
-
 ## **Technologies**
-
----
 
 - Next.js (App Router)
 - React
@@ -29,11 +19,7 @@ A guest-facing hotel booking application built with **Next.js (App Router)** and
 - Supabase
 - Google OAuth
 
----
-
 ## **Project Highlights**
-
----
 
 - Full CRUD functionality for bookings with real-time updates
 - Dynamic pricing ensures accurate calculation for each booking
