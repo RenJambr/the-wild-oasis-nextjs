@@ -15,7 +15,7 @@ function isAlreadyBooked(range, datesArr) {
     range.from &&
     range.to &&
     datesArr.some((date) =>
-      isWithinInterval(date, { start: range.from, end: range.to })
+      isWithinInterval(date, { start: range.from, end: range.to }),
     )
   );
 }
@@ -35,7 +35,7 @@ function DateSelector({ settings, bookedDates, cabin }) {
   return (
     <div className="flex flex-col justify-between">
       <DayPicker
-        className="rdp pt-12 place-self-center"
+        className="rdp pt-12 place-self-center flex-nowrap"
         mode="range"
         onSelect={setRange}
         selected={displayRange}
